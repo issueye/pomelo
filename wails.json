@@ -1,0 +1,14 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "pomelo",
+  "outputfilename": "pomelo",
+  "frontend:install": "pnpm install",
+  "frontend:build": "pnpm run build",
+  "frontend:dev:watcher": "pnpm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "assetdir": "./frontend/dist",
+  "author": {
+    "name": "issueye",
+    "email": "issueye@yeah.net"
+  }
+}
